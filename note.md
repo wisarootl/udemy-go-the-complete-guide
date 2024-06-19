@@ -9,3 +9,9 @@ go build
 ```shell
 go run .
 ```
+
+- install dependencies
+```shell
+go get
+go get github.com/Pallinder/go-randomdata
+```
