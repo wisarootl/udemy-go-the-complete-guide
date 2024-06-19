@@ -15,3 +15,14 @@ go run .
 go get
 go get github.com/Pallinder/go-randomdata
 ```
+
+
+- pointer
+```go
+var agePointer *int
+
+agePointer = &age // get pointer
+
+fmt.Println("Address of age variable:", agePointer)
+fmt.Println("Age:", *agePointer) // dereference the pointer
+```
