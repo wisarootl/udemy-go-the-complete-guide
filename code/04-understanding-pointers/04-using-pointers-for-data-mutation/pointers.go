@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	age := 32 // regular variable
 
-	var agePointer *int
-
-	agePointer = &age
+	// var agePointer *int
+	// agePointer = &age
+	agePointer := &age // merge variable declaration into one line
 
 	fmt.Println("Age:", *agePointer)
 
